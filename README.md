@@ -43,6 +43,8 @@ S’han implementat proves unitàries i proves d’integració per dur a terme a
 | Passwords no coincideixen | Unitària | `"12345678", "1234"` | "Passwords do not match" |
 | Formulari correcte | Unitària | dades correctes | `formValid = true` |
 
+![Proves unitàries](Captures/ProvaUnitari.jpg)
+
 ---
 
 ## Proves d’integració (Espresso)
@@ -55,6 +57,8 @@ S’han implementat proves unitàries i proves d’integració per dur a terme a
 | Error email invàlid | Integració UI | Email incorrecte | Missatge d’error |
 | Error password curta | Integració UI | Password < 8 | Missatge d’error |
 
+![Proves Espresso](Captures/ProvaEspresso.jpg)
+
 ---
 
 ## Resultats
@@ -65,8 +69,6 @@ S’han implementat proves unitàries i proves d’integració per dur a terme a
 ✔ Interfície d’usuari: estable  
 
 No s’han detectat errors en el comportament de l’aplicació.
-
-[captura dls dos resultats]
 
 ---
 
